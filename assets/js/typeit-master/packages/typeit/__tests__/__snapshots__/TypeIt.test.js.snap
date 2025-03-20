@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initial queue only contains startDelay pause. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+]
+`;
+
+exports[`Returns an object with expected properties. 1`] = `
+Array [
+  "break",
+  "delete",
+  "destroy",
+  "empty",
+  "exec",
+  "freeze",
+  "getElement",
+  "getOptions",
+  "getQueue",
+  "go",
+  "is",
+  "move",
+  "options",
+  "pause",
+  "reset",
+  "type",
+  "unfreeze",
+  "updateOptions",
+]
+`;
+
+exports[`break() Should should queue break character object. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+]
+`;
+
+exports[`delete() Should queue pause after string when defined. 1`] = `
+Object {
+  "delay": 300,
+}
+`;
+
+exports[`delete() Should queue pause correctly when options are passed. 1`] = `
+Object {
+  "delay": 200,
+}
+`;
+
+exports[`delete() Should queue pause correctly when single digit is passed. 1`] = `
+Object {
+  "delay": 50,
+}
+`;
+
+exports[`delete() Should temporarily update options when specified. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Adds different even split pause around strings. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": A,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": B,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": C,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 500,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 500,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": E,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": F,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": G,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Adds even split pause around strings. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Adds split pause around strings when value is array. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": A,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": B,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": C,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 100,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 500,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": E,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": F,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "char": G,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+]
+`;
+
+exports[`empty() addSplitPause() Inserts split pause around multiple strings. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": A,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": B,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": C,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": D,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 375,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "char": E,
+    "delay": 0,
+    "func": [Function],
+    "typeable": true,
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+]
+`;
+
+exports[`move() Should queue pause after string when defined. 1`] = `
+Object {
+  "delay": 300,
+}
+`;
+
+exports[`move() Should queue pause correctly when options are passed. 1`] = `
+Object {
+  "delay": 200,
+}
+`;
+
+exports[`move() Should temporarily update options when specified. 1`] = `
+Array [
+  Object {
+    "delay": 250,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+  Object {
+    "delay": 0,
+    "func": [Function],
+  },
+]
+`;
+
+exports[`reset() Successfully resets when called. 1`] = `
+Object {
+  "afterComplete": [Function],
+  "afterStep": [Function],
+  "afterString": [Function],
+  "beforeStep": [Function],
+  "beforeString": [Function],
+  "breakLines": true,
+  "cursor": true,
+  "cursorChar": "|",
+  "cursorSpeed": 1000,
+  "deleteSpeed": null,
+  "html": true,
+  "lifeLike": true,
+  "loop": false,
+  "loopDelay": Array [
+    375,
+    375,
+  ],
+  "nextStringDelay": Array [
+    375,
+    375,
+  ],
+  "speed": 100,
+  "startDelay": 250,
+  "startDelete": false,
+  "strings": Array [
+    "This is my string!",
+  ],
+  "waitUntilVisible": false,
+}
+`;
+
+exports[`type() Should queue pause after string when defined. 1`] = `
+Object {
+  "delay": 300,
+}
+`;
+
+exports[`type() Should queue pause correctly when options are passed. 1`] = `
+Object {
+  "delay": 200,
+}
+`;

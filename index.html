@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <title>Home | Travel Stories</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!--
+
+TemplateMo 546 Sixteen Clothing
+
+https://templatemo.com/tm-546-sixteen-clothing
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+	<link rel="stylesheet" href="assets/css/dropdown.css">
+	<script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
+	<script src="/path/to/typeit/source"></script>
+  </head>
+
+   <body>
+    <!-- Header -->
+     <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Travel Stories</h2>
+             <p id="type">Stories that span the globe</p></a>
+             <script>
+          new TypeIt("#type", {
+  speed: 100,
+  cursor: false,
+  startDelay: 1000,
+}).go();
+</script>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li> 
+              <div class="dropdown">
+              <button class="dropbtn">Travel Destinations</button>
+  			<div class="dropdown-content">
+  				<li class="nav-item"><a class="nav-link" href="asia.html">Asia</a></li>
+              	<li class="nav-item"><a class="nav-link" href="americas.html">U.S.</a></li>
+              	<li class="nav-item"><a class="nav-link" href="europe.html">Europe</a></li>
+              	<li class="nav-item"><a class="nav-link" href="middle.html">Middle East</a></li>
+        </div>
+           </div>
+              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Submissions</a></li>
+           
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+          
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="banner header-text">
+      <div class="owl-banner owl-carousel">
+        <div class="banner-item-01">
+          <div class="text-content">
+            <h2 id="hasia">Asia</h2>
+            <a href="asia.html"><button class="button" id="basia">Learn More</button></a>
+          </div>
+        </div>
+        <div class="banner-item-02">
+          <div class="text-content">
+            <h2 id="hamerica">The Americas</h2>
+			<a href="americas.html"><button class="button"  id="bamerica">Learn More</button></a>
+          </div>
+        </div>
+        <div class="banner-item-03">
+          <div class="text-content">
+            <h2 id="heurope">Europe</h2>
+            <a href="europe.html"><button class="button" id="beurope" >Learn More</button></a>
+          </div>
+        </div>
+        <div class="banner-item-04">
+          <div class="text-content">
+            <h2 id="hmiddle">The Middle East</h2>
+            
+			<a href="middle.html""><button class="button" id="bmiddle" >Learn More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Ends Here -->
+    
+	<div id="map" align=center>
+		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=163t70wJhbVN-5Boiy-eP6M_6zo8ugBwp&ehbc=2E312F" width="640" height="480"></iframe>
+	</div>
+
+          
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p>Akhila Penumaka, Alexia Kim, Rafal Alzaid &copy; <script>document.write(new Date().getFullYear())</script>. All rights reserved.<a href="credits.html" class="underline">Credits</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>
